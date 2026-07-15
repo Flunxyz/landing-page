@@ -117,3 +117,30 @@ ul {
     padding-top: 10px;
     font-size: 18px;
 }
+/* Quote */
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 150px 500px;
+    justify-content: center;
+    flex-direction: column;
+}
+.the-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 0px;
+}
+.the-quote p {
+    margin: 0px;
+}
+.quote-by {
+    color: #1F2937;
+    align-self: flex-end;
+    font-size: 16px;
+    
+}
+.quote-by h1 {
+    margin: 0px;
+}
+
