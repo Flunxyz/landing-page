@@ -1,6 +1,11 @@
-body {
+h1 {
     margin: 0px;
 }
+body {
+    margin: 0px;
+    font-size: 18px;  
+}
+
 .landing-page {
     display: flex;
     flex-direction: column;
@@ -30,7 +35,6 @@ body {
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
 }
 ul {
     list-style: none;
@@ -54,7 +58,7 @@ ul {
     font-size: 48px ;
     font-weight: 900;
     color: #f9FAF8;
-    margin: 0px;
+    
     
 }
 .sign-up {
@@ -69,7 +73,7 @@ ul {
 }
 .left-box p {
     color: #E5E7EB;
-    font-size: 18px;
+    
 }
 .right-box {
     display: flex;
@@ -115,7 +119,6 @@ ul {
     width: 175px ;
     text-align: center;
     padding-top: 10px;
-    font-size: 18px;
 }
 /* Quote */
 .quote {
@@ -143,4 +146,25 @@ ul {
 .quote-by h1 {
     margin: 0px;
 }
-
+/* Action */
+.action-section {
+    display: flex;
+    align-items: center;
+    padding: 150px 250px;
+    
+}
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 250px;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+.action-container .sign-up {
+    border: 2px solid white;
+}
+.action-container p {
+    margin: 0px;
+} 
