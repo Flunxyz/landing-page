@@ -1,34 +1,31 @@
+body {
+    margin: 0px;
+}
 .landing-page {
     display: flex;
     flex-direction: column;
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: #f9FAF8;
-    
+    color: #f9FAF8;  
 }
-/* Header part */
+
+/* Header */
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 0px 150px;
+    padding: 0px 250px;
+    align-items: center;
 }
 .logo {
     display: flex;
     font-weight: 900;
-    font-size: 20px;
-    align-items: center;
-    
-}
-.links {
-    display: flex;
-    align-items: center;
+    font-size: 25px;
 }
 .links ul {
     display: flex;
     gap: 20px;
-    align-items: center;
 }
 a {
     text-decoration: none;
@@ -40,5 +37,83 @@ ul {
     padding: 0px;  
 }
 
+/* Introduction */
+.introduction {
+    display: flex;
+    background-color: #1F2937;
+    padding: 150px 250px;
+    gap: 100px;
+    
+}
+ .left-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.left-box .title {
+    font-size: 48px ;
+    font-weight: 900;
+    color: #f9FAF8;
+    margin: 0px;
+    
+}
+.sign-up {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color:#f9FAF8;
+    width: 120px;
+    height: 40px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.left-box p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.right-box {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    width: 750px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+/* Information */
 
-/* Introduction part */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.information-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px;
+}
+.illustration-image-top {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.illustration {
+    display: flex;
+    flex-direction:column;
+    
+}
+.illustration-image {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+.illustration-text {
+    color: rgb(88, 88, 88) ;
+    width: 175px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
