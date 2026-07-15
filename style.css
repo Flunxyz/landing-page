@@ -106,7 +106,6 @@ ul {
 .illustration {
     display: flex;
     flex-direction:column;
-    
 }
 .illustration-image {
     width: 175px;
@@ -141,7 +140,6 @@ ul {
     color: #1F2937;
     align-self: flex-end;
     font-size: 16px;
-    
 }
 .quote-by h1 {
     margin: 0px;
@@ -168,3 +166,14 @@ ul {
 .action-container p {
     margin: 0px;
 } 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 0px;
+}
+.footer-text {
+    display: flex;
+    gap:10px;
+}
