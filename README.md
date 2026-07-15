@@ -1,5 +1,6 @@
 This is the landing page layout from The Odin Project with some adjustments to it. 
 This project was made for making a full page from scratch by focusing on flexbox.
+Live link https://flunxyz.github.io/landing-page
 
 
 ## Credits
